@@ -14,7 +14,7 @@ public class SendEmail {
 			Email email = new SimpleEmail();
 			email.setHostName("smtp.googlemail.com");
 			email.setSmtpPort(465);
-			email.setAuthenticator(new DefaultAuthenticator("newtec.testes.jp@gmail.com", "jpp123456"));
+			email.setAuthenticator(new DefaultAuthenticator("newtec.testes.jp@gmail.com", "*********"));
 			email.setSSLOnConnect(true);
 
 			email.setFrom("newtec.testes.jp@gmail.com");
